@@ -28,7 +28,7 @@ export default function NavBar() {
           type="button"
           variant="outline"
           size="lg"
-          className="rounded-none border border-black px-6 text-base text-black hover:bg-primary hover:text-white"
+          className="rounded-none border-black px-6 text-base text-black hover:bg-primary hover:text-white"
         >
           Book Now
         </Button>
@@ -53,7 +53,7 @@ export default function NavBar() {
                     type="button"
                     variant="outline"
                     size="lg"
-                    className="border border-primary px-8 text-base hover:bg-primary hover:text-white"
+                    className="border-primary px-8 text-base hover:bg-primary hover:text-white"
                   >
                     Book Now
                   </Button>

@@ -75,7 +75,13 @@ export default function Footer() {
       <div className="absolute bottom-4 left-1/2 w-full -translate-x-1/2 text-center text-white">
         <h5 className="text-sm font-medium">
           Copyright <span className="text-secondary">©{year}</span> All rights
-          reserved
+          reserved | by{" "}
+          <a
+            href="https://github.com/PhosRunia28"
+            className="text-secondary underline"
+          >
+            PhosRunia
+          </a>
         </h5>
       </div>
     </footer>
