@@ -1,3 +1,9 @@
+import SectionBreadcrumb from "../sections/SectionBreadcrumb";
+
 export default function Blog() {
-  return <div>Blog</div>;
+  return (
+    <>
+      <SectionBreadcrumb breadcrumb="Blog" />
+    </>
+  );
 }

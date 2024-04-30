@@ -1,3 +1,9 @@
+import SectionBreadcrumb from "../sections/SectionBreadcrumb";
+
 export default function Contact() {
-  return <div>Contact</div>;
+  return (
+    <>
+      <SectionBreadcrumb breadcrumb="Contact" />
+    </>
+  );
 }

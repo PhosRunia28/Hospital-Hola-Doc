@@ -1,3 +1,9 @@
+import SectionBreadcrumb from "../sections/SectionBreadcrumb";
+
 export default function Doctor() {
-  return <div>Doctor</div>;
+  return (
+    <>
+      <SectionBreadcrumb breadcrumb="Doctor" />
+    </>
+  );
 }

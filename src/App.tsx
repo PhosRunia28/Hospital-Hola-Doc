@@ -10,10 +10,7 @@ import Blog from "./components/pages/Blog";
 import Contact from "./components/pages/Contact";
 import Dev from "./components/pages/Dev";
 import Doctor from "./components/pages/Doctor";
-<<<<<<< HEAD
 import Gallery from "./components/pages/Gallery";
-=======
->>>>>>> 2079174244ea82ca5b10e44d7323136f0ae76bfb
 import Home from "./components/pages/Home";
 import Pricing from "./components/pages/Pricing";
 import RouteConfig from "./components/pages/RouteConfig";

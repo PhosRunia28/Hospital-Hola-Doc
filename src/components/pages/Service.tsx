@@ -1,3 +1,8 @@
+import SectionBreadcrumb from "../sections/SectionBreadcrumb";
 export default function Service() {
-  return <div>Service</div>;
+  return (
+    <>
+      <SectionBreadcrumb breadcrumb="Service" />
+    </>
+  );
 }

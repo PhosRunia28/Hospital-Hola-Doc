@@ -1,3 +1,9 @@
+import SectionBreadcrumb from "../sections/SectionBreadcrumb";
+
 export default function Pricing() {
-  return <div>Pricing</div>;
+  return (
+    <>
+      <SectionBreadcrumb breadcrumb="Pricing" />
+    </>
+  );
 }

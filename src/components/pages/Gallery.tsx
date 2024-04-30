@@ -1,3 +1,9 @@
+import SectionBreadcrumb from "../sections/SectionBreadcrumb";
+
 export default function Gallery() {
-  return <div>Gallery</div>;
+  return (
+    <>
+      <SectionBreadcrumb breadcrumb="Gallery" />
+    </>
+  );
 }
