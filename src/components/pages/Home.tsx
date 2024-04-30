@@ -1,5 +1,6 @@
 import { Bell, Calendar, Webcam } from "lucide-react";
 import SectionBanner from "../sections/SectionBanner";
+import SectionBlog from "../sections/SectionBlog";
 import SectionConsultant from "../sections/SectionConsultant";
 import SectionHero from "../sections/SectionHero";
 import SectionService from "../sections/SectionService";
@@ -28,6 +29,7 @@ export default function Home() {
       <SectionService />
       <SectionConsultant />
       <SectionBanner />
+      <SectionBlog />
     </>
   );
 }

@@ -5,7 +5,7 @@ import Logo from "../ui/Logo";
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="relative mt-10 flex flex-col justify-between gap-8 bg-[#222] px-5 pb-20 pt-10 font-SourceCodePro sm:px-14 lg:flex-row">
+    <footer className="relative flex flex-col justify-between gap-8 bg-[#222] px-5 pb-20 pt-10 font-SourceCodePro sm:px-14 lg:flex-row">
       <div className="flex flex-col gap-6 text-white">
         <h3 className="text-xl font-bold">Contact Us</h3>
         <p className="w-full text-gray-200 sm:max-w-xs">
