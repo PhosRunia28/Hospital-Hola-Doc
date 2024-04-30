@@ -27,7 +27,7 @@ export default function SectionHero() {
           Manage all of your healthcare needs in one convenient place - from
           booking appointments to tracking your health history.
         </p>
-        <Link to="/">
+        <Link to="/appointment">
           <Button
             className="mx-auto w-full max-w-fit px-6 md:mx-0"
             type="button"

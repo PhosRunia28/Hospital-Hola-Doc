@@ -15,15 +15,15 @@ import { Button } from "./button";
 export default function NavBar() {
   return (
     <header className="fixed inset-x-0 top-0 z-30 mx-auto flex w-full max-w-6xl items-center justify-between gap-6 bg-white px-6 pt-4 font-SourceCodePro lg:px-0">
-      <div className="flex items-center gap-14">
+      <div className="flex items-center gap-10">
         <Logo />
-        <div className="hidden gap-6 md:flex">
+        <div className="hidden gap-5 lg:flex">
           {headerLinks.map((header, index) => {
             return <NavItem key={index} header={header} />;
           })}
         </div>
       </div>
-      <Link to="/" className="hidden md:inline-block">
+      <Link to="/appointment" className="hidden lg:inline-block">
         <Button
           type="button"
           variant="outline"
@@ -33,27 +33,27 @@ export default function NavBar() {
           Book Now
         </Button>
       </Link>
-      <div className="md:hidden ">
+      <div className="lg:hidden ">
         {/* <Menu /> */}
         <Sheet>
           <SheetTrigger>
             <Menu className="h-8 w-8" />
           </SheetTrigger>
           <SheetContent>
-            <SheetHeader className="mt-10 space-y-8">
+            <SheetHeader className="mt-5 space-y-6">
               <SheetTitle className="mx-auto">
                 <Logo />
               </SheetTitle>
-              <SheetDescription className="flex flex-col gap-8">
+              <SheetDescription className="flex flex-col gap-4">
                 {headerLinks.map((header, index) => {
                   return <NavItem key={index} header={header} small={false} />;
                 })}
-                <Link to="/">
+                <Link to="/appointment">
                   <Button
                     type="button"
                     variant="outline"
                     size="lg"
-                    className="border-primary px-8 text-base hover:bg-primary hover:text-white"
+                    className="border-primary px-8 text-base hover:bg-primary hover:text-white focus-visible:ring-0"
                   >
                     Book Now
                   </Button>

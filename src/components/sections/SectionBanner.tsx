@@ -11,7 +11,7 @@ export default function SectionBanner() {
         We can manage your dream building A small river named Duden flows by
         their place
       </p>
-      <Link to="/">
+      <Link to="/appointment">
         <Button
           className="mx-auto w-full max-w-fit px-6 md:mx-0"
           variant="white"
