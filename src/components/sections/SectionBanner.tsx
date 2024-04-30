@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function SectionBanner() {
   return (
-    <section className="flex flex-col items-center gap-5 bg-primary px-3 py-16 text-center font-DMSans text-white">
+    <section className="mb-8 flex flex-col items-center gap-5 bg-primary px-3 py-16 text-center font-DMSans text-white">
       <h3 className="text-3xl font-bold lg:text-4xl">
         Your Health is Our Priority
       </h3>
