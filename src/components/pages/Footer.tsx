@@ -73,7 +73,7 @@ export default function Footer() {
       </div>
       {/* copyright */}
       <div className="absolute bottom-4 left-1/2 w-full -translate-x-1/2 text-center text-white">
-        <h5 className="text-sm font-medium">
+        <h5 className="text-xs font-medium">
           Copyright <span className="text-secondary">©{year}</span> All rights
           reserved | by{" "}
           <a

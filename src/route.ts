@@ -20,6 +20,14 @@ export const headerLinks = [
     link: "/blog",
   },
   {
+    name: "Pricing",
+    link: "/pricing",
+  },
+  {
+    name: "Dev",
+    link: "/dev",
+  },
+  {
     name: "About Us",
     link: "/about",
   },
