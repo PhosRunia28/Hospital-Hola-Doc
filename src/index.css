@@ -50,6 +50,10 @@
   }
 }
 
+.bg-banner{
+  background: url('/src/img/banner.png');
+}
+
 @layer base {
   * {
     @apply border-border;
