@@ -1,5 +1,5 @@
 import doctor1 from "@/img/doctor1.png";
-import DoctorBox from "../ui/DoctorBox";
+import Card from "../ui/Card";
 
 export default function SectionConsultant() {
   return (
@@ -11,28 +11,28 @@ export default function SectionConsultant() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className="flex flex-wrap justify-center gap-6 font-DMSans lg:justify-between">
-          <DoctorBox
+          <Card
             image={doctor1}
             name="Dr. Lloyd Wilson"
             specialist="NEUROLOGIST"
             desc="I am an ambitious workaholic, but apart from that, pretty simple
                 person."
           />
-          <DoctorBox
+          <Card
             image={doctor1}
             name="Dr. Rachel Parker"
             specialist="OPHTHALMOLOGIST"
             desc="I am an ambitious workaholic, but apart from that, pretty simple
                 person."
           />
-          <DoctorBox
+          <Card
             image={doctor1}
             name="Dr. Ian Smith"
             specialist="DENTIST"
             desc="I am an ambitious workaholic, but apart from that, pretty simple
                 person."
           />
-          <DoctorBox
+          <Card
             image={doctor1}
             name="Dr. Alicia Henderson"
             specialist="PEDIATRICIAN"

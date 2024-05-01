@@ -28,6 +28,10 @@ export const headerLinks = [
     link: "/dev",
   },
   {
+    name: "Gallery",
+    link: "/gallery",
+  },
+  {
     name: "About Us",
     link: "/about",
   },

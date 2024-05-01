@@ -31,7 +31,7 @@ function App() {
         <Route path="dev" element={<Dev />}></Route>
         <Route path="gallery" element={<Gallery />}></Route>
         <Route path="appointment" element={<Appointment />}></Route>
-        <Route path="*" element={<RouteError />}></Route>,
+        <Route path="*" element={<RouteError />}></Route>
       </Route>,
     ),
   );
