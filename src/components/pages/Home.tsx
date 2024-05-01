@@ -6,12 +6,13 @@ import SectionHero from "../sections/SectionHero";
 import SectionService from "../sections/SectionService";
 import CardItem from "../ui/CardItem";
 import { useEffect } from "react";
+import AnimatePage from "./AnimatePage";
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top on mount or route change
   }, []);
   return (
-    <>
+    <AnimatePage>
       <SectionHero />
       <section className="mt-6 flex flex-wrap justify-center gap-8 bg-primary px-6 py-8 font-DMSans md:mt-0 lg:justify-normal lg:px-14">
         <CardItem
@@ -34,6 +35,6 @@ export default function Home() {
       <SectionConsultant />
       <SectionBanner />
       <SectionBlog />
-    </>
+    </AnimatePage>
   );
 }

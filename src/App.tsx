@@ -1,3 +1,4 @@
+import { AnimatePresence } from "framer-motion";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -16,7 +17,6 @@ import Pricing from "./components/pages/Pricing";
 import RouteConfig from "./components/pages/RouteConfig";
 import RouteError from "./components/pages/RouteError";
 import Service from "./components/pages/Service";
-
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -35,7 +35,11 @@ function App() {
       </Route>,
     ),
   );
-  return <RouterProvider router={router} />;
+  return (
+    <AnimatePresence>
+      <RouterProvider router={router} />
+    </AnimatePresence>
+  );
 }
 
 export default App;

@@ -9,6 +9,7 @@ import gallery8 from "@/img/gallery/gallery8.png";
 import { Eye } from "lucide-react";
 import SectionBreadcrumb from "../sections/SectionBreadcrumb";
 import { useEffect } from "react";
+import AnimatePage from "./AnimatePage";
 export default function Gallery() {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top on mount or route change
@@ -24,7 +25,7 @@ export default function Gallery() {
     gallery8,
   ];
   return (
-    <>
+    <AnimatePage>
       <SectionBreadcrumb breadcrumb="Gallery" />
       <section className="pb-28 pt-10 md:pt-14 lg:pt-28">
         <div className="flex flex-wrap justify-center gap-4">
@@ -45,6 +46,6 @@ export default function Gallery() {
           })}
         </div>
       </section>
-    </>
+    </AnimatePage>
   );
 }

@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { Button } from "../ui/button";
 import { useEffect } from "react";
+import AnimatePage from "./AnimatePage";
 
 export default function Appointment() {
   useEffect(() => {
@@ -36,7 +37,7 @@ export default function Appointment() {
     reset();
   }
   return (
-    <>
+    <AnimatePage>
       <section className="flex flex-col justify-center gap-8 pb-20 md:py-20 lg:flex-row lg:items-center lg:justify-between">
         <div className="mx-auto flex w-full max-w-lg flex-col gap-6 lg:mx-0">
           <h3 className="text-2xl font-bold sm:text-3xl">Servicing Hours</h3>
@@ -175,6 +176,6 @@ export default function Appointment() {
         </div>
         <Toaster />
       </section>
-    </>
+    </AnimatePage>
   );
 }
