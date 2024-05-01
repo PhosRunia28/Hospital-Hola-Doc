@@ -5,7 +5,11 @@ import SectionConsultant from "../sections/SectionConsultant";
 import SectionHero from "../sections/SectionHero";
 import SectionService from "../sections/SectionService";
 import CardItem from "../ui/CardItem";
+import { useEffect } from "react";
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top on mount or route change
+  }, []);
   return (
     <>
       <SectionHero />

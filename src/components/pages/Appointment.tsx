@@ -2,8 +2,12 @@ import { Toaster } from "@/components/ui/sonner";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { Button } from "../ui/button";
+import { useEffect } from "react";
 
 export default function Appointment() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top on mount or route change
+  }, []);
   type AppointmentData = {
     patient_name: string;
     phone: string;

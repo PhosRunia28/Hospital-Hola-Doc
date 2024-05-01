@@ -8,7 +8,11 @@ import gallery7 from "@/img/gallery/gallery7.png";
 import gallery8 from "@/img/gallery/gallery8.png";
 import { Eye } from "lucide-react";
 import SectionBreadcrumb from "../sections/SectionBreadcrumb";
+import { useEffect } from "react";
 export default function Gallery() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top on mount or route change
+  }, []);
   const galleryHospital = [
     gallery1,
     gallery2,
