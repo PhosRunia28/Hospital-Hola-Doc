@@ -1,6 +1,9 @@
+import amanda from "@/img/dev/amanda.jpg";
+import rosyidah from "@/img/dev/rosyidah.jpg";
+import tedy from "@/img/dev/tedy.jpg";
+import zidan from "@/img/dev/zidan.jpg";
 import doctor1 from "@/img/doctor1.png";
 import Card from "../ui/Card";
-
 export default function SectionDev() {
   return (
     <section className="flex flex-col gap-12 py-14 font-SourceCodePro">
@@ -12,39 +15,34 @@ export default function SectionDev() {
         </p>
         <div className="flex flex-wrap justify-center gap-8 font-DMSans">
           <Card
-            image={doctor1}
+            image={tedy}
             name="Tedy Nugroho"
             specialist="FrontEnd Dev"
-            desc="I am an ambitious workaholic, but apart from that, pretty simple
-                person."
+            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta doloremque atque perspiciatis ea"
           />
           <Card
-            image={doctor1}
-            name="Zidan Mumtaz"
+            image={zidan}
+            name="Muhammad Zidan Mumtaz"
             specialist="BackEnd Dev"
-            desc="I am an ambitious workaholic, but apart from that, pretty simple
-                person."
+            desc="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis id aperiam quis!"
           />
           <Card
-            image={doctor1}
+            image={rosyidah}
             name="Rosyidah Dwiyanti"
             specialist="UI / UX Designer"
-            desc="I am an ambitious workaholic, but apart from that, pretty simple
-                person."
+            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum blanditiis delectus nesciunt aut ipsam?"
           />
           <Card
             image={doctor1}
-            name="Hamza Nurrazi"
+            name="Muhammad Hamzah Maulana"
             specialist="FrontEnd Dev"
-            desc="I am an ambitious workaholic, but apart from that, pretty simple
-                person."
+            desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi molestiae ipsum quaerat, in sunt officia doloremque."
           />
           <Card
-            image={doctor1}
-            name="Amanda"
+            image={amanda}
+            name="Amanda Dewi Puspita"
             specialist="UI / UX Designer"
-            desc="I am an ambitious workaholic, but apart from that, pretty simple
-                person."
+            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni magnam, provident odit sit impedit corrupti dicta. Officia, aspernatur."
           />
         </div>
       </div>
