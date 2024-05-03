@@ -1,8 +1,8 @@
 import amanda from "@/img/dev/amanda.jpg";
+import hamzah from "@/img/dev/hamzah.jpg";
 import rosyidah from "@/img/dev/rosyidah.jpg";
 import tedy from "@/img/dev/tedy.jpg";
 import zidan from "@/img/dev/zidan.jpg";
-import doctor1 from "@/img/doctor1.png";
 import Card from "../ui/Card";
 export default function SectionDev() {
   return (
@@ -33,7 +33,7 @@ export default function SectionDev() {
             desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum blanditiis delectus nesciunt aut ipsam?"
           />
           <Card
-            image={doctor1}
+            image={hamzah}
             name="Muhammad Hamzah Maulana"
             specialist="FrontEnd Dev"
             desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi molestiae ipsum quaerat, in sunt officia doloremque."
